@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
 using System.Net.Mime;
+using dblaze.Shared.DBContext;
 
 namespace dblaze.Server
 {
@@ -16,7 +17,8 @@ namespace dblaze.Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+            services.AddDbContext<BooksContext>();
+                    //(options => options.UseSqlite(connection));
             services.AddResponseCompression(options =>
             {
                 options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[]
