@@ -1,0 +1,9 @@
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\bin\Debug\netcoreapp2.1\dblaze.Shared.deps.json
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\bin\Debug\netcoreapp2.1\dblaze.Shared.dll
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\bin\Debug\netcoreapp2.1\dblaze.Shared.pdb
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.csprojAssemblyReference.cache
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.csproj.CoreCompileInputs.cache
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.AssemblyInfoInputs.cache
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.AssemblyInfo.cs
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.dll
+c:\Users\John\Dropbox\rtmp\src\cs\core\dblaze\dblaze.Shared\obj\Debug\netcoreapp2.1\dblaze.Shared.pdb
