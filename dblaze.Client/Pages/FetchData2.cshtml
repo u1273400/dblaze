@@ -1,0 +1,44 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<h1>Books from Database</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (books == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>BookId</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in books)
+            {
+                <tr>
+                    <td>@book.BookId</td>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td><img src="@book.ImageUrl.Substring(2)"/></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@functions {
+    Book[] books;
+
+    protected override async Task OnInitAsync()
+    {
+        books = await Http.GetJsonAsync<Book[]>("api/Books");
+    }
+}
